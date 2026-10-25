@@ -1,0 +1,23 @@
+.gradle/
+/local.properties
+/.idea/
+*.iml
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/build/
+
+# Signing keys and secrets
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+.env
+.env.*
+!.env.example
+
+# Local tooling and generated files
+.DS_Store
+Thumbs.db
+.kotlin/
